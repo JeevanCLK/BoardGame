@@ -120,7 +120,7 @@
 	 <distributionManagement>
         <repository>
             <id>maven-releases</id>
-            <url>http://13.234.120.43/:8081/repository/maven-releases/</url>
+            <url>http://13.234.120.43:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>maven-snapshots</id>
