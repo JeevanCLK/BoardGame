@@ -70,13 +70,54 @@ This web application displays lists of board games and their reviews. While anyo
   - Non-members only can see the boardgame lists and reviews
   - Users can add board games and write reviews
   - Managers can edit and delete the reviews
-- Deployed the application on AWS EC2
+- Deployed the application on AWS EKS
 - JUnit test framework for unit testing
 - Spring MVC best practices to segregate views, controllers, and database packages
 - JDBC for database connectivity and interaction
 - CRUD (Create, Read, Update, Delete) operations for managing data in the database
 - Schema.sql file to customize the schema and input initial data
 - Thymeleaf Fragments to reduce redundancy of repeating HTML elements (head, footer, navigation)
+
+  #
+
+<div align="center">
+<img src="https://github.com/JeevanCLK/BoardGame/blob/master/Assets/Jenkins%20dashboard%20for%20boardgame.png">
+<img src="https://github.com/JeevanCLK/BoardGame/blob/master/Assets/Screenshot%20(171).png">
+</div>
+
+#
+
+
+<div align="center">
+<img src="https://github.com/JeevanCLK/BoardGame/blob/master/Assets/Screenshot%20(174).png">
+</div>
+
+#
+
+<div align="center">
+<img src="https://github.com/JeevanCLK/BoardGame/blob/master/Assets/Boardgame%20dashboard.png">
+</div>
+
+#
+
+
+<div align="center">
+<img src="https://github.com/JeevanCLK/BoardGame/blob/master/Assets/Boardgame%20sign%20up.png">
+</div>
+
+#
+
+<div align="center">
+<img src="https://github.com/JeevanCLK/BoardGame/blob/master/Assets/Boardgame%20Login.png">
+</div>
+
+#
+
+<div align="center">
+<img height="400" width="1000" style="margin-right: 20px" src="https://github.com/JeevanCLK/BoardGame/blob/master/Assets/Mail%20SS.png">
+</div>
+
+
 
 ## How to Run
 
