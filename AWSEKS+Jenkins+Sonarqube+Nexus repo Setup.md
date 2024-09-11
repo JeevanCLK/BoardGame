@@ -169,11 +169,47 @@ docker exec -it <container-id> /bin/bash
 
 - Go to Manage Jenkins → System Configuration.
 1. In SonarQube Servers: Name: sonar ,  URL: http://<SonarQube-Server-IP>:9000, Server Authentication Token: sonar-token
-2. For Email Notification:
+2. For Email Notification
+- Add Gmail credentials in Jenkins(gmail as userid and passwd: app passwd) (create app password from Google account).
+- kind : userid and password 
+- user : usergmail 
+- passwod : paste it
+- id:mail-cred
+- description:mail cred got to Systems- Extended email notifications:
 - SMTP Server: smtp.gmail.com
 - SMTP Port: 465
 - Use SSL: Yes
-- Add Gmail credentials in Jenkins (create app password from Google account).
+```bash
+now Section-Extended E-mail Notification
+Extended E-mail Notification
+SMTP server
+smtp.gmail.com
+SMTP Port
+465
+Advanced
+Edited
+Credentials
+
+jeevanclk712000@gmail.com/****** (mail-cred)
+
+checkbox sould be checked for Use SSL
+
+
+E-mail Notification section 
+SMTP server
+smtp.gmail.com
+
+Advanced
+Edited
+
+Use SMTP Authentication checkbox should be checked
+User Name
+jeevanclk712000@gmail.com
+Password
+•••••••••••••••••••
+
+Use SSL :checkbox should be checked
+```
 3. For Docker:
 - Add DockerHub credentials in Jenkins.
 
